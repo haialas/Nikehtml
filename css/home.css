@@ -105,12 +105,9 @@ hr.light {
 }
 .content1{
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
 
 }
-
-
-
 /*Media Query*/
 @media (max-width: 992px){
     .carousel-caption {
@@ -172,21 +169,12 @@ ul {
 .footer-cta {
     border-bottom: 1px solid #373636;
 }
-.single-cta i {
-    color: #ff5e14;
-    font-size: 30px;
-    float: left;
-    margin-top: 8px;
-}
-.cta-text {
-    padding-left: 15px;
-    display: inline-block;
-}
 .cta-text h4 {
     color: #fff;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 2px;
+    text-align: center;
 }
 .cta-text span {
     color: #757575;
@@ -510,5 +498,9 @@ ul {
     background: #00aced;
     cursor: pointer;
     border: none;
+}
+.frame{
+    margin-top: 40px;
+    text-align: center;
 }
 
